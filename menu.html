@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FOI Menu | Premium Selection</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-cream">
+
+    <!-- STICKY NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand text-coffee" href="index.html">FOOD OF INDIANS</a>
+            <div class="ms-auto d-flex align-items-center">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-sm btn-outline-coffee active" id="btn-en"
+                        onclick="setLang('en')">EN</button>
+                    <button type="button" class="btn btn-sm btn-outline-coffee" id="btn-gu"
+                        onclick="setLang('gu')">ગુજરાતી</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <div class="container my-5 text-center fade-in">
+        <h2 class="fw-bold text-coffee" data-en="Our Complete Menu" data-gu="અમારું સંપૂર્ણ મેનુ">Our Complete Menu</h2>
+        <div class="mx-auto bg-coffee mt-2" style="width: 50px; height: 3px; background-color: var(--primary-coffee);">
+        </div>
+    </div>
+
+    <!-- MENU ACCORDION -->
+    <div class="container mb-5 fade-in" style="animation-delay: 0.2s;">
+        <div class="accordion" id="menuAccordion">
+
+            <!-- MAGGI MENU -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#maggi">
+                        <span class="me-2">🍜</span> <span data-en="Maggi Menu" data-gu="મેગી મેનુ">Maggi Menu</span>
+                    </button>
+                </h2>
+                <div id="maggi" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍜</span><span
+                                    data-en="ASL (Plain Masala Maggi)" data-gu="એએસએલ (પ્લેન મસાલા મેગી)">ASL (Plain
+                                    Masala Maggi)</span></span><span class="item-price">₹59</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥣</span><span
+                                    data-en="OMG WHITE (White Sauce)" data-gu="ઓએમજી વ્હાઈટ (વ્હાઈટ સોસ)">OMG WHITE
+                                    (White Sauce)</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥣</span><span
+                                    data-en="OMG GREEN (Green Sauce)" data-gu="ઓએમજી ગ્રીન (ગ્રીન સોસ)">OMG GREEN (Green
+                                    Sauce)</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥣</span><span
+                                    data-en="OMG RED (Red Sauce)" data-gu="ઓએમજી રેડ (રેડ સોસ)">OMG RED (Red
+                                    Sauce)</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧈</span><span
+                                    data-en="BTW (Butter & Cheese)" data-gu="બીટીડબલ્યુ (બટર અને ચીઝ)">BTW (Butter &
+                                    Cheese)</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥢</span><span
+                                    data-en="HNK (With Manchurian)" data-gu="એચએનકે (માંચુરિયન સાથે)">HNK (With
+                                    Manchurian)</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍫</span><span
+                                    data-en="WTF (Hot Chocolate)" data-gu="ડબલ્યુટીએફ (હોટ ચોકલેટ)">WTF (Hot
+                                    Chocolate)</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🔥</span><span
+                                    data-en="SIZZLER (Spicy Sizzler)" data-gu="સિઝલર (સ્પાઈસી સિઝલર)">SIZZLER (Spicy
+                                    Sizzler)</span></span><span class="item-price">₹189</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥘</span><span
+                                    data-en="KO RED (Desi Punjabi)" data-gu="કેઓ રેડ (દેશી પંજાબી)">KO RED (Desi
+                                    Punjabi)</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧄</span><span
+                                    data-en="BRB (Chillies & Garlic)" data-gu="બીઆરબી (મરચાં અને લસણ)">BRB (Chillies &
+                                    Garlic)</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌶️</span><span
+                                    data-en="TTYL (Schezwan)" data-gu="ટીટીવાયએલ (સેઝવાન)">TTYL
+                                    (Schezwan)</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍃</span><span
+                                    data-en="KO GREEN (Punjabi Green)" data-gu="કેઓ ગ્રીન (પંજાબી ગ્રીન)">KO GREEN
+                                    (Punjabi Green)</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌽</span><span
+                                    data-en="FAQ (Corn & Veggies)" data-gu="એફએક્યુ (મકાઈ અને શાકભાજી)">FAQ (Corn &
+                                    Veggies)</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥪</span><span
+                                    data-en="LOL (Butter Cheese Special)" data-gu="એલઓએલ (બટર ચીઝ સ્પેશિયલ)">LOL (Butter
+                                    Cheese Special)</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥡</span><span
+                                    data-en="HMM (Chow Mein Style)" data-gu="એચએમએમ (ચો મેઈન સ્ટાઈલ)">HMM (Chow Mein
+                                    Style)</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥕</span><span
+                                    data-en="Fusion Vegetable Makhni Maggi" data-gu="ફ્યુઝન વેજીટેબલ મખની મેગી">Fusion
+                                    Vegetable Makhni Maggi</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Fusion Paneer Maggi" data-gu="ફ્યુઝન પનીર મેગી">Fusion Paneer
+                                    Maggi</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍛</span><span
+                                    data-en="Maggi Biryani" data-gu="મેગી બિરયાની">Maggi Biryani</span></span><span
+                                class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">♨️</span><span
+                                    data-en="Tandoori Maggi" data-gu="તંદૂરી મેગી">Tandoori Maggi</span></span><span
+                                class="item-price">₹149</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GARLIC BREADS -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#garlic-bread">
+                        <span class="me-2">🥖</span> <span data-en="FOI Breads (Garlic Breads)"
+                            data-gu="ગાર્લિક બ્રેડ">FOI Breads (Garlic Breads)</span>
+                    </button>
+                </h2>
+                <div id="garlic-bread" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥖</span><span
+                                    data-en="Garlic Bread" data-gu="ગાર્લિક બ્રેડ">Garlic Bread</span></span><span
+                                class="item-price">₹99</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Cheese Garlic Bread" data-gu="ચીઝ ગાર્લિક બ્રેડ">Cheese Garlic
+                                    Bread</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍢</span><span
+                                    data-en="Paneer Tikka Garlic Bread" data-gu="પનીર ટિક્કા ગાર્લિક બ્રેડ">Paneer Tikka
+                                    Garlic Bread</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌵</span><span
+                                    data-en="Mexican Garlic Bread" data-gu="મેક્સિકન ગાર્લિક બ્રેડ">Mexican Garlic
+                                    Bread</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌽</span><span
+                                    data-en="Corn & Cheese Garlic Bread" data-gu="કોર્ન અને ચીઝ ગાર્લિક બ્રેડ">Corn &
+                                    Cheese Garlic Bread</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌟</span><span
+                                    data-en="Supreme Garlic Bread" data-gu="સુપ્રીમ ગાર્લિક બ્રેડ">Supreme Garlic
+                                    Bread</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍝</span><span
+                                    data-en="Mix Pasta Garlic Bread" data-gu="મિક્સ પાસ્તા ગાર્લિક બ્રેડ">Mix Pasta
+                                    Garlic Bread</span></span><span class="item-price">₹169</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🫒</span><span
+                                    data-en="Olives & Jalapeno Garlic Bread"
+                                    data-gu="ઓલિવ્સ અને જલાપેનો ગાર્લિક બ્રેડ">Olives & Jalapeno Garlic
+                                    Bread</span></span><span class="item-price">₹169</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COFFEE & TEA -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#coffee">
+                        <span class="me-2">☕</span> <span data-en="Coffee & Tea" data-gu="કોફી અને ચા">Coffee &
+                            Tea</span>
+                    </button>
+                </h2>
+                <div id="coffee" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <h6 class="text-coffee fw-bold border-bottom pb-2">Cold Coffee</h6>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">❄️</span><span
+                                    data-en="Irish Cold Coffee" data-gu="આઈરિશ કોલ્ડ કોફી">Irish Cold
+                                    Coffee</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍦</span><span
+                                    data-en="Vanilla / Hazelnut / Caramel" data-gu="વેનીલા / હેઝલનટ / કેરેમલ">Vanilla /
+                                    Hazelnut / Caramel</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍪</span><span
+                                    data-en="Choco Chips / Chocolate" data-gu="ચોકો ચિપ્સ / ચોકલેટ">Choco Chips /
+                                    Chocolate</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍫</span><span
+                                    data-en="Brownie / Kit Kat / Oreo" data-gu="બ્રાઉની / કિટ કેટ / ઓરિયો">Brownie / Kit
+                                    Kat / Oreo</span></span><span class="item-price">₹139</span></div>
+                        <h6 class="text-coffee fw-bold border-bottom pb-2 mt-3">Hot Coffee</h6>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">☕</span><span
+                                    data-en="Plain Coffee" data-gu="પ્લેન કોફી">Plain Coffee</span></span><span
+                                class="item-price">₹40</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌑</span><span
+                                    data-en="Irish / Coco / Black Coffee" data-gu="આઈરિશ / કોકો / બ્લેક કોફી">Irish /
+                                    Coco / Black Coffee</span></span><span class="item-price">₹79</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">✨</span><span
+                                    data-en="Frappe / Cafe Latte" data-gu="ફ્રેપ્પે / કેફે લેટ્ટે">Frappe / Cafe
+                                    Latte</span></span><span class="item-price">₹99</span></div>
+                        <h6 class="text-coffee fw-bold border-bottom pb-2 mt-3">Tea & Ice Tea</h6>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍵</span><span
+                                    data-en="Plain Tea" data-gu="પ્લેન ચા">Plain Tea</span></span><span
+                                class="item-price">₹25</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍂</span><span
+                                    data-en="Masala / Ginger / Black Tea" data-gu="મસાલા / આદુ / બ્લેક ટી">Masala /
+                                    Ginger / Black Tea</span></span><span class="item-price">₹35</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍋</span><span
+                                    data-en="Peach / Lemon Ice Tea" data-gu="પીચ / લેમન આઈસ ટી">Peach / Lemon Ice
+                                    Tea</span></span><span class="item-price">₹79</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FRIES & CORN -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#fries">
+                        <span class="me-2">🍟</span> <span data-en="Fries & Sweet Corn"
+                            data-gu="ફ્રેન્ચ ફ્રાઈઝ અને મકાઈ">Fries & Sweet Corn</span>
+                    </button>
+                </h2>
+                <div id="fries" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍟</span><span
+                                    data-en="Plain / Masala / Spicy Fries" data-gu="પ્લેન / મસાલા / તીખી ફ્રાઈઝ">Plain /
+                                    Masala / Spicy Fries</span></span><span class="item-price">₹99</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌶️</span><span
+                                    data-en="Peri Peri Fries" data-gu="પેરી પેરી ફ્રાઈઝ">Peri Peri
+                                    Fries</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥘</span><span
+                                    data-en="Schezwan / Pasta Sauce Fries" data-gu="સેઝવાન / પાસ્તા સોસ ફ્રાઈઝ">Schezwan
+                                    / Pasta Sauce Fries</span></span><span class="item-price">₹129</span></div>
+                        <hr>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌽</span><span
+                                    data-en="Plain / Masala / Schezwan Corn" data-gu="પ્લેન / મસાલા / સેઝવાન મકાઈ">Plain
+                                    / Masala / Schezwan Corn</span></span><span class="item-price">₹99</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🔥</span><span
+                                    data-en="Punjabi Flavour Spicy Corn" data-gu="પંજાબી ફ્લેવર સ્પાઈસી મકાઈ">Punjabi
+                                    Flavour Spicy Corn</span></span><span class="item-price">₹129</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHINESE MENU -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#chinese">
+                        <span class="me-2">🥢</span> <span data-en="Chinese Menu" data-gu="ચાઈનીઝ મેનુ">Chinese
+                            Menu</span>
+                    </button>
+                </h2>
+                <div id="chinese" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍜</span><span
+                                    data-en="Veg Hakka Noodles" data-gu="વેજ હક્કા નૂડલ્સ">Veg Hakka
+                                    Noodles</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍚</span><span
+                                    data-en="Veg Fried Rice" data-gu="વેજ ફ્રાઈડ રાઈસ">Veg Fried Rice</span></span><span
+                                class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌶️</span><span
+                                    data-en="Schezwan Fried Rice" data-gu="સેઝવાન ફ્રાઈડ રાઈસ">Schezwan Fried
+                                    Rice</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Chilli Paneer (Dry)" data-gu="ચીલી પનીર (ડ્રાય)">Chilli Paneer
+                                    (Dry)</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍢</span><span
+                                    data-en="Paneer 65" data-gu="પનીર 65">Paneer 65</span></span><span
+                                class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌽</span><span
+                                    data-en="Crispy Corn" data-gu="ક્રિસ્પી કોર્ન">Crispy Corn</span></span><span
+                                class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍯</span><span
+                                    data-en="Honey Chilli Potato" data-gu="હની ચીલી પોટેટો">Honey Chilli
+                                    Potato</span></span><span class="item-price">₹149</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">⚪</span><span
+                                    data-en="Cheese Balls" data-gu="ચીઝ બોલ્સ">Cheese Balls</span></span><span
+                                class="item-price">₹169</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌯</span><span
+                                    data-en="Chinese Corn Rolls" data-gu="ચાઈનીઝ કોર્ન રોલ્સ">Chinese Corn
+                                    Rolls</span></span><span class="item-price">₹169</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KHICHDI & BIRYANI -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#khichdi">
+                        <span class="me-2">🥘</span> <span data-en="Khichdi & Biryani"
+                            data-gu="ખીચડી અને બિરયાની">Khichdi & Biryani</span>
+                    </button>
+                </h2>
+                <div id="khichdi" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥘</span><span
+                                    data-en="Butter / Creamy / Spicy Khichdi"
+                                    data-gu="બટર / ક્રીમી / સ્પાઈસી ખીચડી">Butter / Creamy / Spicy
+                                    Khichdi</span></span><span class="item-price">₹145</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍲</span><span
+                                    data-en="Dal Makhni Khichdi" data-gu="દાલ મખની ખીચડી">Dal Makhni
+                                    Khichdi</span></span><span class="item-price">₹190</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Cheese Masala Khichdi" data-gu="ચીઝ મસાલા ખીચડી">Cheese Masala
+                                    Khichdi</span></span><span class="item-price">₹199</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍢</span><span
+                                    data-en="Paneer Masala Khichdi" data-gu="પનીર મસાલા ખીચડી">Paneer Masala
+                                    Khichdi</span></span><span class="item-price">₹199</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍚</span><span
+                                    data-en="Veg Biryani" data-gu="વેજ બિરયાની">Veg Biryani</span></span><span
+                                class="item-price">₹199</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SANDWICHES -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#sandwiches">
+                        <span class="me-2">🥪</span> <span data-en="Sandwiches" data-gu="સેન્ડવીચ">Sandwiches</span>
+                    </button>
+                </h2>
+                <div id="sandwiches" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥪</span><span
+                                    data-en="Masala Maggi Sandwich (MMS)" data-gu="મસાલા મેગી સેન્ડવીચ">Masala Maggi
+                                    Sandwich (MMS)</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥣</span><span
+                                    data-en="Veg Mayo / Masala Cheese" data-gu="વેજ માયો / મસાલા ચીઝ">Veg Mayo / Masala
+                                    Cheese</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Vegetable Cheese" data-gu="વેજીટેબલ ચીઝ">Vegetable
+                                    Cheese</span></span><span class="item-price">₹169</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍕</span><span
+                                    data-en="Pizza / Mini Tandoori Sandwich" data-gu="પિઝા / મીની તંદૂરી સેન્ડવીચ">Pizza
+                                    / Mini Tandoori Sandwich</span></span><span class="item-price">₹189</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍢</span><span
+                                    data-en="Vegetable Paneer Sandwich" data-gu="વેજીટેબલ પનીર સેન્ડવીચ">Vegetable
+                                    Paneer Sandwich</span></span><span class="item-price">₹189</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">💥</span><span
+                                    data-en="Cheese Burst Sandwich" data-gu="ચીઝ બર્સ્ટ સેન્ડવીચ">Cheese Burst
+                                    Sandwich</span></span><span class="item-price">₹199</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOMOS -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#momos">
+                        <span class="me-2">🥟</span> <span data-en="Momos" data-gu="મોમોઝ">Momos</span>
+                    </button>
+                </h2>
+                <div id="momos" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥟</span><span
+                                    data-en="Veg Steamed Momos" data-gu="વેજ સ્ટીમ મોમોઝ">Veg Steamed
+                                    Momos</span></span><span class="item-price">₹119</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥟</span><span
+                                    data-en="Veg Fried Momos" data-gu="વેજ ફ્રાઈડ મોમોઝ">Veg Fried
+                                    Momos</span></span><span class="item-price">₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍄</span><span
+                                    data-en="Cheese / Paneer / Mushroom" data-gu="ચીઝ / પનીર / મશરૂમ">Cheese / Paneer /
+                                    Mushroom</span></span><span class="item-price">₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍱</span><span
+                                    data-en="Momos Platter" data-gu="મોમોઝ પ્લેટર">Momos Platter</span></span><span
+                                class="item-price">₹159</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOYA CHAAP -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#soya">
+                        <span class="me-2">🍖</span> <span data-en="Soya Chaaps" data-gu="સોયા ચાપ">Soya Chaaps</span>
+                    </button>
+                </h2>
+                <div id="soya" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍗</span><span
+                                    data-en="Tandoori / Afghani / Malai / Achari"
+                                    data-gu="તંદૂરી / અફઘાની / મલાઈ / અચારી">Tandoori / Afghani / Malai /
+                                    Achari</span></span><span class="item-price">₹189</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥘</span><span
+                                    data-en="Paneer Tikka / Pasta Sauce Chaap"
+                                    data-gu="પનીર ટિક્કા / પાસ્તા સોસ ચાપ">Paneer Tikka / Pasta Sauce
+                                    Chaap</span></span><span class="item-price">₹229</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌯</span><span
+                                    data-en="Soya Chaap Rolls" data-gu="સોયા ચાપ રોલ્સ">Soya Chaap
+                                    Rolls</span></span><span class="item-price">₹189</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PIZZA -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pizza">
+                        <span class="me-2">🍕</span> <span data-en="Pizza Hub" data-gu="પિઝા">Pizza Hub</span>
+                    </button>
+                </h2>
+                <div id="pizza" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍕</span><span
+                                    data-en="Margherita / Corn & Cheese" data-gu="માર્ગેરિટા / કોર્ન અને ચીઝ">Margherita
+                                    / Corn & Cheese</span></span><span class="item-price">₹169</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧀</span><span
+                                    data-en="Double Cheese Margherita" data-gu="ડબલ ચીઝ માર્ગેરિટા">Double Cheese
+                                    Margherita</span></span><span class="item-price">₹189</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍃</span><span
+                                    data-en="Veggie Delight / Chilly Garlic" data-gu="વેજી ડિલાઇટ / ચીલી ગાર્લિક">Veggie
+                                    Delight / Chilly Garlic</span></span><span class="item-price">₹199</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍢</span><span
+                                    data-en="Tandoori / Peri Peri Paneer" data-gu="તંદૂરી / પેરી પેરી પનીર">Tandoori /
+                                    Peri Peri Paneer</span></span><span class="item-price">₹229</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">⭐</span><span
+                                    data-en="FOI Special Pizza" data-gu="FOI સ્પેશિયલ પિઝા">FOI Special
+                                    Pizza</span></span><span class="item-price">₹249</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOCKTAILS & SHAKES -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#beverages">
+                        <span class="me-2">🍹</span> <span data-en="Mocktails & Shakes"
+                            data-gu="મોકટેલ્સ અને શેક્સ">Mocktails & Shakes</span>
+                    </button>
+                </h2>
+                <div id="beverages" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <h6 class="text-coffee fw-bold border-bottom pb-2">Mocktails</h6>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍹</span><span
+                                    data-en="Mojito (Virgin/Strawberry/Mango)"
+                                    data-gu="મોજીતો (વર્જિન/સ્ટ્રોબેરી/મેંગો)">Mojito
+                                    (Virgin/Strawberry/Mango)</span></span><span class="item-price">₹110</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌊</span><span
+                                    data-en="Blue Lagoon / Orange / Lemonade"
+                                    data-gu="બ્લુ લગૂન / ઓરેન્જ / લેમોનેડ">Blue Lagoon / Orange /
+                                    Lemonade</span></span><span class="item-price">₹130</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍬</span><span
+                                    data-en="Bubble Gum" data-gu="બબલ ગમ">Bubble Gum</span></span><span
+                                class="item-price">₹140</span></div>
+                        <h6 class="text-coffee fw-bold border-bottom pb-2 mt-3">Shakes & Desserts</h6>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥤</span><span
+                                    data-en="Belgian / Pan / Rose / Kit Kat"
+                                    data-gu="બેલ્જિયન / પાન / રોઝ / કિટ કેટ">Belgian / Pan / Rose / Kit
+                                    Kat</span></span><span class="item-price">₹139</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍦</span><span
+                                    data-en="Ferrero / Nutella Shakes" data-gu="ફેરેરો / ન્યુટેલા શેક્સ">Ferrero /
+                                    Nutella Shakes</span></span><span class="item-price">₹179</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍮</span><span
+                                    data-en="Sizzling Brownie with Ice Cream"
+                                    data-gu="સિઝલિંગ બ્રાઉની વિથ આઈસક્રીમ">Sizzling Brownie with Ice
+                                    Cream</span></span><span class="item-price">₹189</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROLLS, BURGERS & PASTA -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#others">
+                        <span class="me-2">🍔</span> <span data-en="Rolls, Burgers & Pasta"
+                            data-gu="રોલ્સ, બર્ગર અને પાસ્તા">Rolls, Burgers & Pasta</span>
+                    </button>
+                </h2>
+                <div id="others" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🌯</span><span
+                                    data-en="Spring Rolls / Mayo / Kebab" data-gu="સ્પ્રિંગ રોલ્સ / માયો / કબાબ">Spring
+                                    Rolls / Mayo / Kebab</span></span><span class="item-price">₹139 - ₹159</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍔</span><span
+                                    data-en="Veggie / Paneer / Crispy Burger"
+                                    data-gu="વેજ / પનીર / ક્રિસ્પી બર્ગર">Veggie / Paneer / Crispy
+                                    Burger</span></span><span class="item-price">₹99 - ₹129</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🍝</span><span
+                                    data-en="White / Red / Mix / Paneer Pasta"
+                                    data-gu="વ્હાઈટ / રેડ / મિક્સ / પનીર પાસ્તા">White / Red / Mix / Paneer
+                                    Pasta</span></span><span class="item-price">₹199 - ₹219</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUICK BITES -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#quick-bites">
+                        <span class="me-2">🥯</span> <span data-en="Quick Bites" data-gu="ઝડપી નાસ્તો">Quick
+                            Bites</span>
+                    </button>
+                </h2>
+                <div id="quick-bites" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                    <div class="accordion-body">
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥐</span><span
+                                    data-en="Veg Puff" data-gu="વેજ પફ">Veg Puff</span></span><span
+                                class="item-price">₹20</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥯</span><span
+                                    data-en="Cheese Puff" data-gu="ચીઝ પફ">Cheese Puff</span></span><span
+                                class="item-price">₹35</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🧈</span><span
+                                    data-en="Bun Maska / Jam" data-gu="બન મસ્કા / જામ">Bun Maska /
+                                    Jam</span></span><span class="item-price">₹45 - ₹55</span></div>
+                        <div class="menu-item"><span class="item-name"><span class="item-icon">🥡</span><span
+                                    data-en="Pizza Pocket / Cheese Cigar Roll"
+                                    data-gu="પિઝા પોકેટ / ચીઝ સિગાર રોલ">Pizza Pocket / Cheese Cigar
+                                    Roll</span></span><span class="item-price">₹89</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center mt-auto">
+        <div class="container">
+            <h4 class="mb-3">FOI</h4>
+            <p class="footer-text mt-4">© 2026 FOI Café. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FALLING FOOD CONTAINER -->
+    <div class="falling-food-container" id="fallingContainer"></div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Falling Food Animation
+        const foodEmojis = ['🍕', '🍔', '🍟', '🥟', '🍜', '☕', '🍗', '🥪', '🍹', '🍩', '🥐'];
+        const container = document.getElementById('fallingContainer');
+
+        function createFoodItem() {
+            const item = document.createElement('div');
+            item.className = 'falling-item';
+            item.textContent = foodEmojis[Math.floor(Math.random() * foodEmojis.length)];
+            item.style.left = Math.random() * 100 + 'vw';
+            item.style.animationDuration = (Math.random() * 3 + 4) + 's';
+            item.style.fontSize = (Math.random() * 20 + 20) + 'px';
+
+            container.appendChild(item);
+
+            setTimeout(() => {
+                item.remove();
+            }, 7000);
+        }
+
+        setInterval(createFoodItem, 1000);
+
+        // Dancing Letters Engine
+        function applyDancingLetters(el, text) {
+            el.innerHTML = '';
+            [...text].forEach((char, i) => {
+                const span = document.createElement('span');
+                span.textContent = char === ' ' ? '\u00A0' : char;
+                span.style.animationDelay = `${i * 0.04}s`;
+                el.appendChild(span);
+            });
+        }
+
+        function setLang(lang) {
+            // Update all elements with data-en/data-gu
+            document.querySelectorAll("[data-en]").forEach(el => {
+                const text = el.getAttribute(`data-${lang}`);
+
+                // If it's a menu item name, apply dancing spans
+                if (el.parentElement.classList.contains('item-name') || el.classList.contains('item-name')) {
+                    applyDancingLetters(el, text);
+                } else {
+                    el.textContent = text;
+                }
+            });
+
+            // Update button states
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-gu').classList.toggle('active', lang === 'gu');
+
+            localStorage.setItem('foi-lang', lang);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('foi-lang') || 'en';
+            setLang(savedLang);
+        });
+    </script>
+</body>
+
+</html>

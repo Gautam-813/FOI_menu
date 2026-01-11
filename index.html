@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FOI - Food Of Indians | Premium Digital Menu</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Welcome to FOI (Food Of Indians). Experience the finest café delicacies in Mota Varachha, Surat. Fast, modern, and premium digital menu.">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top fade-in">
+        <div class="container py-2">
+            <a class="navbar-brand text-coffee" href="index.html">FOOD OF INDIANS</a>
+
+            <div class="ms-auto d-flex align-items-center">
+                <div class="btn-group" role="group" aria-label="Language Toggle">
+                    <button type="button" class="btn btn-sm btn-outline-coffee active" id="btn-en"
+                        onclick="setLang('en')">EN</button>
+                    <button type="button" class="btn btn-sm btn-outline-coffee" id="btn-gu"
+                        onclick="setLang('gu')">ગુજરાતી</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero text-center fade-in">
+        <div class="container px-4">
+            <h1 class="text-coffee" id="hero-title" data-en="Welcome to FOI" data-gu="FOI માં આપનું સ્વાગત છે">Welcome
+                to FOI</h1>
+            <p class="lead text-muted mb-5" id="hero-tagline" data-en="Fill up with exquisite food delicacies"
+                data-gu="ઉત્તમ વાનગીઓ સાથે તમારું મન ભરી દો">
+                Fill up with exquisite food delicacies
+            </p>
+            <a href="menu.html" class="btn btn-coffee btn-lg px-5 shadow" data-en="View Our Menu" data-gu="મેનુ જુઓ">
+                View Our Menu
+            </a>
+        </div>
+    </section>
+
+    <!-- QUICK ACTIONS -->
+    <section class="container my-5 fade-in" style="animation-delay: 0.2s;">
+        <div class="row g-4 text-center">
+            <div class="col-6 col-md-4">
+                <a href="menu.html" class="action-card">
+                    <i class="fas fa-book-open"></i>
+                    <span data-en="Explore Menu" data-gu="મેનુ એક્સપ્લોર કરો">Explore Menu</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="tel:9662096903" class="action-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <span data-en="Call Us" data-gu="કોલ કરો">Call Us</span>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://maps.app.goo.gl/YourLocationID" target="_blank" class="action-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span data-en="Find Us" data-gu="લોકેશન">Find Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- POPULAR CATEGORIES PREVIEW -->
+    <section class="container my-5 fade-in" style="animation-delay: 0.4s;">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="text-coffee mb-0" data-en="Popular Now" data-gu="અત્યારે લોકપ્રિય">Popular Now</h3>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-6 col-lg-3">
+                <div class="category-card">
+                    <div class="fs-1 mb-2">🍕</div>
+                    <div class="fw-bold" data-en="Pizza" data-gu="પિઝા">Pizza</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="category-card">
+                    <div class="fs-1 mb-2">🥟</div>
+                    <div class="fw-bold" data-en="Momos" data-gu="મોમોઝ">Momos</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="category-card">
+                    <div class="fs-1 mb-2">☕</div>
+                    <div class="fw-bold" data-en="Coffee" data-gu="કોફી">Coffee</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="category-card">
+                    <div class="fs-1 mb-2">🍜</div>
+                    <div class="fw-bold" data-en="Chinese" data-gu="ચાઈનીઝ">Chinese</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center mt-auto">
+        <div class="container">
+            <h4 class="mb-3">FOI</h4>
+            <p class="footer-text mb-4" data-en="Quality Food, Unbeatable Taste"
+                data-gu="ઉત્તમ ગુણવત્તા, અવિસ્મરણીય સ્વાદ">Quality Food, Unbeatable Taste</p>
+            <div class="social-links mb-4">
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <hr class="bg-light opacity-25">
+            <p class="footer-text mt-4">© 2026 FOI Café. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Dancing Letters Engine for Landing Page
+        function applyDancingLetters(el, text) {
+            el.innerHTML = '';
+            [...text].forEach((char, i) => {
+                const span = document.createElement('span');
+                span.textContent = char === ' ' ? '\u00A0' : char;
+                span.style.animationDelay = `${i * 0.04}s`;
+                el.appendChild(span);
+            });
+        }
+
+        function setLang(lang) {
+            document.querySelectorAll("[data-en]").forEach(el => {
+                const text = el.getAttribute(`data-${lang}`);
+
+                // Apply dancing letters to buttons and cards
+                if (el.tagName === 'A' || el.parentElement.tagName === 'A' || el.classList.contains('fw-bold')) {
+                    applyDancingLetters(el, text);
+                } else {
+                    el.textContent = text;
+                }
+            });
+
+            // Update button states
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-gu').classList.toggle('active', lang === 'gu');
+
+            // Store preference
+            localStorage.setItem('foi-lang', lang);
+        }
+
+        // Initialize language from local storage or default to English
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('foi-lang') || 'en';
+            setLang(savedLang);
+        });
+    </script>
+</body>
+
+</html>

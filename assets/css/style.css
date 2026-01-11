@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+    --bg-cream: #fdfaf5;
+    --primary-coffee: #4e342e;
+    --accent-warm: #d7ccc8;
+    --text-dark: #3e2723;
+    --text-muted: #795548;
+    --white: #ffffff;
+    --shadow-soft: 0 10px 30px rgba(78, 52, 46, 0.08);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Food Falling Animation Background */
+.falling-food-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.falling-item {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear forwards;
+    opacity: 0.6;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh) rotate(360deg);
+    }
+}
+
+.text-coffee {
+    color: var(--primary-coffee);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(253, 250, 245, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(78, 52, 46, 0.05);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* Button Styles */
+.btn-coffee {
+    background-color: var(--primary-coffee);
+    color: var(--white);
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: var(--transition);
+    border: none;
+}
+
+.btn-coffee:hover {
+    background-color: #3e2723;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 52, 46, 0.2);
+    color: var(--white);
+}
+
+.btn-outline-coffee {
+    border: 2px solid var(--primary-coffee);
+    color: var(--primary-coffee);
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-outline-coffee:hover {
+    background-color: var(--primary-coffee);
+    color: var(--white);
+}
+
+/* Hero Section */
+.hero {
+    padding: 120px 0;
+    background: linear-gradient(rgba(253, 250, 245, 0.8), rgba(253, 250, 245, 0.8)), url('../hero.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Cards */
+.action-card {
+    background: var(--white);
+    border-radius: 24px;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: var(--primary-coffee);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition);
+    height: 100%;
+    border: 1px solid rgba(78, 52, 46, 0.03);
+}
+
+.action-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(78, 52, 46, 0.12);
+    color: var(--primary-coffee);
+}
+
+.action-card i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Category Cards */
+.category-card {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition);
+    border: 1px solid rgba(78, 52, 46, 0.03);
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+    background-color: var(--primary-coffee);
+    color: var(--white);
+}
+
+/* Menu Accordion */
+.accordion-item {
+    border: none;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.accordion-button {
+    background: var(--white) !important;
+    color: var(--primary-coffee) !important;
+    border-radius: 16px !important;
+    padding: 20px;
+    font-weight: 600;
+    box-shadow: var(--shadow-soft) !important;
+    border: 1px solid rgba(78, 52, 46, 0.03);
+}
+
+.accordion-button:not(.collapsed) {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    background: var(--primary-coffee) !important;
+    color: var(--white) !important;
+}
+
+.accordion-button::after {
+    filter: sepia(100%) saturate(200%) brightness(50%) contrast(100%);
+    animation: bounceArrow 2s infinite;
+}
+
+@keyframes bounceArrow {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(-3px);
+    }
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+    animation: none;
+    transform: rotate(-180deg);
+}
+
+.accordion-collapse {
+    background: var(--white);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid rgba(78, 52, 46, 0.03);
+    border-top: none;
+}
+
+/* Menu Items */
+.menu-item {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--accent-warm);
+    transition: var(--transition);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item:hover {
+    background-color: rgba(215, 204, 200, 0.1);
+}
+
+.item-name {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.item-name span {
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.menu-item:hover .item-name span {
+    animation: dance 0.6s ease infinite;
+    color: var(--primary-coffee);
+}
+
+.menu-item:hover .item-icon {
+    animation: wiggle 0.5s ease infinite;
+    font-size: 1.5rem;
+}
+
+@keyframes dance {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(-15deg);
+    }
+
+    75% {
+        transform: rotate(15deg);
+    }
+}
+
+.item-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    transition: var(--transition);
+}
+
+.item-price {
+    font-weight: 700;
+    color: var(--primary-coffee);
+}
+
+/* Footer */
+footer {
+    background: var(--primary-coffee);
+    color: var(--white);
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer-text {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease forwards;
+}
