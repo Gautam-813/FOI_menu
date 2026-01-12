@@ -1,0 +1,1342 @@
+[
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"Noodles",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"Maggi In Red Sauce",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MAGGI IN WHITE SAUCE",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MAGGI IN GREEN SAUCE",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"PLAIN MASALA MAGGI",
+    "Unnamed: 1":null,
+    "FINAL RATE":59.0
+  },
+  {
+    "ITEMS NAME":"Green Chillies and Garlic Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"Schezwan Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"Dessi Panjabi Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"Punjabi Maggi In Green Sauce",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"Corn And Veggi Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"Butter Cheese veggi & Garlic &more",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"Chowmein style Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"Butter And Cheese Maggi",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"Maggi In Hot Chocolate",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"Maggi With Manchurian",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"Spicy Maggi Sizziler",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"FUSION VEG MAKHNI MAGGI",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"FUSION PANEER MAGGI",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"MAGGI BIRYANI",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"TANDOORI MAGGI",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"BREADS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"CHEESE GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"VEG CHEESE GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"SPICY NOODLE CHEESE GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"ALFREDO GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"ARRABBIATA GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MIX PASTA GARLIC BREAD",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"OLIVES & JALAPENO CHEESE",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"COLD COFFEE",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"irish cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"vanila cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"hazelnut cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"caremel cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"choco chips cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"chocolate cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"white chocolate cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"brownie cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"kit kat cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"oreo cold coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"HOT COFFEE",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"plain coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":40.0
+  },
+  {
+    "ITEMS NAME":"irish hot coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":79.0
+  },
+  {
+    "ITEMS NAME":"coco hot coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":"black coffee ",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":"frappe hot coffee",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"caf\u00e9 latte",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"TEA",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"plain tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":25.0
+  },
+  {
+    "ITEMS NAME":"masala tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":35.0
+  },
+  {
+    "ITEMS NAME":"ginger tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":35.0
+  },
+  {
+    "ITEMS NAME":"black tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":35.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"ICE TEA",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"peach ice tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":79.0
+  },
+  {
+    "ITEMS NAME":"green ice tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":79.0
+  },
+  {
+    "ITEMS NAME":"lemon ice tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":79.0
+  },
+  {
+    "ITEMS NAME":"bubblegum ice tea",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"SWEET CORN",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"plain corn",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"masala corn",
+    "Unnamed: 1":null,
+    "FINAL RATE":109.0
+  },
+  {
+    "ITEMS NAME":"schezwan corn",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"vegetable corn",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"punjabi flavour spicy corn",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"FRENCH FRIES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"plain french fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"masala french fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"spicy french fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"schezwan french fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"french fries with pasta sauce",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"green chilly french fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"peri peri fries",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"QUICK BITES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"Pizza pocket",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":"cheese cigar roll",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":"chatpata tringle",
+    "Unnamed: 1":null,
+    "FINAL RATE":89.0
+  },
+  {
+    "ITEMS NAME":"panner bites",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"CHOCOLATE SHOTS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"CHOCOLATE SHOTS",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"BROWNIE SHOTS",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"CRUNCHY SHOT",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"BLACK & WHITE SHOT",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"DRYFRUIT",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"hazelnut shot",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"SHAKES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"BELGIAN SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"PAN SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"ROSE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"bubblegum shake",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"CHOCOLATE SHAKES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"DARK CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"WHITE CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"CRUNCHY CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"ENERGY CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"DAY NIGHT MIX SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"HOT & COLD CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"FERRO CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"BROWNIE CHOCOLATE SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"COOKIES & DRYFRUITS SHAKES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PEANUT SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"ANJEER SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"OREO SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"MIXED DRY FRUIT SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"FRUIT SHAKES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"MANGO SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"STRAWBERRY SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"VANILLA SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"BLACK CURRENT SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"BUTTER SCOTCH SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"COCONUT SHAKE",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"SIZZLING  CHOCOLATE BROWNIE",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"walnut brownie chocalate",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"CHINESE MENU",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"BABY CORN MUSHROOM",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"VEG MANCHURIAN",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"VEG KOTHE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"CRISPY CORN",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"CRISPY HONEY CHILLI POTATO",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"FRIED RICE",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"SCHEZWAN FRIED RICE",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"VEG HAKKA NOODLES",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"CHINESE CORN ROLLS",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"CHEESE BALLS",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"CRISPY VEG",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"STARTER'S",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PANEER chilli",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"PANEER 65",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"MUSHROOM CHILLI",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PLAIN PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"CHEESE PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"DOUBLE CHEEESE PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"SCHEZWAN PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"NOODLES PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"PIZZA PAV BHAJI",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"SANDWICHES",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"MASALA MAGGI SANDWICH-MMS",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"VEG MAYO SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"COCKTAIL MAGGI SANDWICH-CMS",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"MASALA CHEESE SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"VEGETABLE CHEESE SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"PIZZA SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"MINI TANDOORI SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"VEGETABLE PANEER SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"CHILLY GARLIC SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"CHILLY CHEESE SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"CHEESE BRUST SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"MINI MEXICAN SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"CHEESE CHUTNEY SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"CHOCOLATE SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"TANDURI PANEER SANDWICH",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"MOMO'S",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"VEG FRIED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"VEG STEAMED MOMOS ",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"CORN & VEG FRIED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"CORN & VEG STEAMED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"CHEESE FRIED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"CHEESE STEAMED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":119.0
+  },
+  {
+    "ITEMS NAME":"PANEER FRIED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"PANEER STEAMED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"MOMOS PLATTER FRIED",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"MOMOS PLATTER STEAMED",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MUSHROOM FRIED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"MUSHROOM STEAMED MOMOS",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"SOYA CHAAPS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"MASALA SOYA CHAAP 5 PCS",
+    "Unnamed: 1":null,
+    "FINAL RATE":219.0
+  },
+  {
+    "ITEMS NAME":"TANDOORI SOYA CHAAP TIKKA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"ACHARI SOYA CHAAP TIKKA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"MALAI SOYA CHAAP",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"SCHEWAN SOYA CHAAP",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"PUNJABI TADKA SOYA CHAAP SPICY ",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"PASTA SAUCE SOYA CHAAP",
+    "Unnamed: 1":null,
+    "FINAL RATE":229.0
+  },
+  {
+    "ITEMS NAME":"MASALA SOYA CHAAP ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"SOYA CHAAP TIKKA ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"MALAI SOYA CHAAP ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"VEG SOYA CHAAP ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":239.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"GARLIC PIZZA ",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"CHEESE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"TANDOORI VEGGIE PIZZA ",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"DELUXE VEGGIE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"INDORI PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"KATHI PIZZA ",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"DND MAGGI PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"DND PANEER MAGGI PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"DND ONION CHEESE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"DND COCKTAIL MAGGI PIZZA ",
+    "Unnamed: 1":null,
+    "FINAL RATE":189.0
+  },
+  {
+    "ITEMS NAME":"DND WHITE CORN PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"CHOCOLATE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"FARM HOUSE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"PANEER CHEESE PIZZA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"MOCKTAILS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"VIRGIN MOJITO",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"STRAWBERRY MOJITO",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"KHUS COOLER",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"KIWI COOLER",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"MANGO MOJITO",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"GREEN APPLE COOLER",
+    "Unnamed: 1":null,
+    "FINAL RATE":110.0
+  },
+  {
+    "ITEMS NAME":"ORANGE BLOSSOM",
+    "Unnamed: 1":null,
+    "FINAL RATE":130.0
+  },
+  {
+    "ITEMS NAME":"BLUE LAGOON",
+    "Unnamed: 1":null,
+    "FINAL RATE":130.0
+  },
+  {
+    "ITEMS NAME":"LEMONADE",
+    "Unnamed: 1":null,
+    "FINAL RATE":130.0
+  },
+  {
+    "ITEMS NAME":"BUBBLE GUM",
+    "Unnamed: 1":null,
+    "FINAL RATE":140.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"ROLLS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PFA SPRING MAGGI ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":139.0
+  },
+  {
+    "ITEMS NAME":"PFA MAGGI MAYO ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"PFA KEBAB MAGGI ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MAGGI BALLS-NB",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"MAGGI KEBAB-PS",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"SPRING ROLL",
+    "Unnamed: 1":null,
+    "FINAL RATE":159.0
+  },
+  {
+    "ITEMS NAME":"MAGGI KEBAB IN LOLLYPOP-LS",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"BURGER",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"VEGGIE BURGER",
+    "Unnamed: 1":null,
+    "FINAL RATE":99.0
+  },
+  {
+    "ITEMS NAME":"BNB- BURGER MAGGI BITE",
+    "Unnamed: 1":null,
+    "FINAL RATE":109.0
+  },
+  {
+    "ITEMS NAME":"PANEER BURGER",
+    "Unnamed: 1":null,
+    "FINAL RATE":109.0
+  },
+  {
+    "ITEMS NAME":"CRISPY BURGER",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"WHITE PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"RED PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"GREEN PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"MIX PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  },
+  {
+    "ITEMS NAME":"VEG PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":219.0
+  },
+  {
+    "ITEMS NAME":"PANEER PASTA",
+    "Unnamed: 1":null,
+    "FINAL RATE":219.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"NEW ARRIVALS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"HARA BHARA KEBAB",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"VADA PAV",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"vada pav ",
+    "Unnamed: 1":null,
+    "FINAL RATE":35.0
+  },
+  {
+    "ITEMS NAME":"cheese vada pav",
+    "Unnamed: 1":null,
+    "FINAL RATE":49.0
+  },
+  {
+    "ITEMS NAME":"schewan vada pav",
+    "Unnamed: 1":null,
+    "FINAL RATE":49.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"TIME PASS",
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"veg nuggets",
+    "Unnamed: 1":null,
+    "FINAL RATE":129.0
+  },
+  {
+    "ITEMS NAME":"cheese nuggets",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"cheese shots",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"smileys",
+    "Unnamed: 1":null,
+    "FINAL RATE":149.0
+  },
+  {
+    "ITEMS NAME":"cheese corn nuggets",
+    "Unnamed: 1":null,
+    "FINAL RATE":169.0
+  },
+  {
+    "ITEMS NAME":"veg lollypop",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"falafel kabab",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":"little veg hearts",
+    "Unnamed: 1":null,
+    "FINAL RATE":179.0
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":null,
+    "Unnamed: 1":null,
+    "FINAL RATE":null
+  },
+  {
+    "ITEMS NAME":"VEG BIRYANI",
+    "Unnamed: 1":null,
+    "FINAL RATE":199.0
+  }
+]
