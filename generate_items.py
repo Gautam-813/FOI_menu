@@ -46,47 +46,12 @@ for item in data:
         if current_cat not in categories: categories[current_cat] = []
         categories[current_cat].append(item)
 
-# Mapping to HTML IDs
-mapping = {
-    'NOODLES': 'maggi',
-    'MAGGI': 'maggi',
-    'BREADS': 'garlic-bread',
-    'COLD COFFEE': 'coffee',
-    'HOT COFFEE': 'coffee',
-    'TEA': 'coffee',
-    'ICE TEA': 'coffee',
-    'SWEET CORN': 'fries',
-    'FRENCH FRIES': 'fries',
-    'CHINESE MENU': 'chinese',
-    'STARTER\'S': 'chinese',
-    'PAV BHAJI': 'pav-bhaji',
-    'SANDWICHES': 'sandwiches',
-    'MOMO\'S': 'momos',
-    'SOYA CHAAPS': 'soya',
-    'PIZZA': 'pizza',
-    'MOCKTAILS': 'beverages',
-    'SHAKES': 'beverages',
-    'CHOCOLATE SHAKES': 'beverages',
-    'COOKIES & DRYFRUITS SHAKES': 'beverages',
-    'FRUIT SHAKES': 'beverages',
-    'ROLLS': 'others',
-    'BURGER': 'others',
-    'PASTA': 'others',
-    'VADA PAV': 'vada-pav',
-    'TIME PASS': 'time-pass',
-    'NEW ARRIVALS': 'quick-bites',
-    'VEG BIRYANI': 'khichdi'
-}
-
-# Generate blocks
+# Generate blocks - each category gets its own ID
 html_blocks = {}
 for cat, items in categories.items():
-    html_id = mapping.get(cat, 'others')
-    if html_id not in html_blocks: html_blocks[html_id] = ""
-    
-    # Add subheader if it's a grouped section
-    if cat in ['COLD COFFEE', 'HOT COFFEE', 'TEA', 'ICE TEA', 'SHAKES', 'CHOCOLATE SHAKES', 'FRUIT SHAKES', 'COOKIES & DRYFRUITS SHAKES', 'TIME PASS']:
-         html_blocks[html_id] += f'                        <h6 class="text-coffee fw-bold border-bottom pb-2 mt-3">{cat.title()}</h6>\n'
+    # Create a unique ID for each category
+    html_id = cat.lower().replace(' ', '-').replace('&', 'and').replace("'", '')
+    html_blocks[html_id] = ""
     
     for item in items:
         html_blocks[html_id] += format_item(item)
